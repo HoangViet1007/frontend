@@ -1,0 +1,12 @@
+.c-header.c-header-fixed {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 5;
+}
+.c-sidebar.c-sidebar-fixed {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 5;
+}

@@ -1,0 +1,99 @@
+/* ----------start custom antd css----------- */
+[data-theme="compact"]
+  .site-collapse-custom-collapse
+  .site-collapse-custom-panel,
+.site-collapse-custom-collapse .site-collapse-custom-panel {
+  margin-bottom: 8px;
+  overflow: hidden;
+  background: #f7f7f7;
+  border: 0px;
+  border-radius: 2px;
+}
+#courseContent .ant-collapse-content {
+  background: white;
+}
+#courseContent .ant-collapse-content-box {
+  padding: 0px;
+}
+#course-assessment .ant-progress-bg {
+  height: 15px !important;
+  animation-name: toRight;
+  animation-duration: 5s;
+  direction: alternate;
+  -webkit-animation-name: toRight;
+  -webkit-animation-duration: 5s;
+}
+@keyframes toRight {
+  from {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  to {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+#course-assessment .ant-rate-star {
+  margin-right: 2px !important;
+}
+.ant-rate-star-custom .ant-rate-star {
+  margin-right: 2px !important;
+}
+/* .course-panel-item .ant-collapse-arrow {
+  vertical-align: 2px !important;
+} */
+.select-bmi .ant-select-selector {
+  padding-top: 0.17rem !important;
+  padding-bottom: 0.17rem !important;
+  height: 100% !important;
+}
+.select-bmi .ant-select-selector:hover {
+  border: 1px solid black !important;
+}
+
+.select-bmi.ant-select-focused:not(.ant-select-disable).ant-select:not(.ant-select-customize-input)
+  .ant-select-selector {
+  border-color: black !important;
+  box-shadow: none !important;
+  outline: none !important;
+  border-right-width: 0px !important;
+}
+.select-bmi .ant-select-selection-placeholder {
+  color: gray !important;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+.ant-image-mask-info {
+  display: flex;
+  align-items: center;
+}
+.ant-image-preview-img {
+  display: inline-block;
+}
+/* .ant-menu-light .ant-menu-item-active,
+.ant-menu-light .ant-menu:not(.ant-menu-inline) .ant-menu-submenu-open,
+.ant-menu-light .ant-menu-submenu-active,
+.ant-menu-light .ant-menu-submenu-title:hover {
+  color: #ff0000;
+} */
+/* .ant-rate{
+  font-size:
+} */
+/* ----------end custom antd css----------- */
+.custome-table-lever2 .ant-table-thead > tr > th {
+  background: #717477 !important;
+  color: white !important;
+}
+svg {
+  vertical-align: unset !important;
+}
+.ant-switch {
+  background-color: rgba(0, 0, 0, 0.25);
+}
+.ant-btn-primary,
+.ant-switch-checked {
+  background: #1890ff;
+}
+.ant-btn-danger {
+  background: #ff4d4f;
+}
