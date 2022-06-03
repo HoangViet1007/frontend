@@ -1,0 +1,11 @@
+version: '3'
+services:
+  fronend:
+    image: fronend
+    container_name: fronend
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 3000:3000
+    restart: unless-stopped
