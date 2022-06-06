@@ -1,8 +1,8 @@
 version: '3'
 services:
   fronend:
-    image: fronend
-    container_name: fronend
+    image: frontend
+    container_name: frontend
     build:
       context: .
       dockerfile: ./Dockerfile
