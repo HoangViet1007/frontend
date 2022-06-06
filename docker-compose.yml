@@ -1,6 +1,6 @@
 version: '3'
 services:
-  fronend:
+  frontend:
     image: frontend
     container_name: frontend
     build:
